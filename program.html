@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1 id="row">My First Web Page using HTML CSS and JavaScript</h1>
+        <title>E-commerce site</title>
+        
         <style>
-            #row{
-                color:black;
-                background-color: yellow;
-                border: 3px solid black;
+            .box{
+                background-image: url('website.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: flex;
+                align-items: center;
+                height: 50vh;
+                padding-left: 20px;
+                color: white;
+                position: relative;
+            }
+            .box h1{
+                margin: 0px;
+                font-size: x-large;
+                text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+            }
+            body{
+                margin:0px;
+                font-family: Arial, Helvetica, sans-serif;
             }
         </style>
     </head>
     <body>
-        <p id="row1">This is statement</p>
-        <script src="script.js"></script>
+        <div class="box">
+            <h1 id="row">E-commerce site</h1>
+        </div>
     </body>
 </html>
